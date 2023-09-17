@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo', sans-serif;
+font-family: 'Philosopher', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(79, 90, 134, 0.7), rgba(89, 97, 133, 0.7)), url(l);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:  translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 100px;
+}
+#about{
+    padding: 80px;
+    color: #fff;
+    background-color: #2357af;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.tentang1{
+    flex-basis: 35%;
+}
+.tentang1 img{
+     width: 300%;
+    
+}
+.tentang2{
+    flex-basis: 60%;
+}
+.sub{
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+.tab1{
+    display: flex;
+    margin: 20px 0 40px;
+}
+.tab-tabli{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+.tab-tabli::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.tab-tabli.active-link::after{
+    width: 50%;
+}
+.tab-isi ul li{
+list-style: none;
+margin: 10px 0;
+}
+.tab-isi ul li span{
+    color: #b5476b;
+    font-size: 14px;
+}
+.tab-isi{
+    display: none;
+}
+.tab-isi.active-tab{
+    display: block;
+}
+.tab-panel
+body {
+    background-color: #4d5bf9;
+  }
+  .container {
+    width: 80vmin;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 60%;
+    top: 150px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  }
+  .tabs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  h3 {
+    text-align: center;
+    padding: 15px 0;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  .tab-content {
+    padding: 50px 40px;
+  }
+  .tab-content h4 {
+    font-size: 28px;
+    position: absolute;
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: 600;
+  }
+  .tab-content p {
+    text-align: justify;
+    position: relative;
+    line-height: 1.9;
+    letter-spacing: 0.4px;
+    color: #fff;
+  }
+  .tab-content div {
+    display: none;
+  }
+  .tab-content .active {
+    display: block;
+  }
+  .tabs .active {
+    color: #fff;
+  }
+ .tentang1 ul li{
+    color: #fff;
+    position: relative;
+    padding: 8px 12px;
+  }
+  .tentang1 ul li a img{
+    color: #fff;
+    font-size: medium;
+    width: 300%;
+
+  }
